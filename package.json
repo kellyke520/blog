@@ -11,7 +11,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {},
+  "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5"
+  },
   "dependencies": {
     "vuepress-theme-reco": "^1.6.17",
     "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.4",

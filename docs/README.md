@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: "/avatar.jpg"
-heroText: Shark Xu
+heroText: Jame lin
 heroImageStyle:
   {
     maxHeight: "288px",
@@ -11,4 +11,4 @@ heroImageStyle:
   } 
 ---
 
-content
+# 生命太短，没时间留给遗憾，若不是终点，请微笑一直向前！

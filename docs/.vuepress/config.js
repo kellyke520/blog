@@ -2,21 +2,33 @@ module.exports = {
   // 和仓库名相同
   base: "/blog/",
 
-  title: "Jame lin的博客",
-  description: "记录一下那平凡的生活code",
+  title: "Kelly ke's blog",
+  description: "A bold attempt is half success",
+
+  head: [
+    ['link', { rel: 'icon', href: '/avatar.png' }],
+  ],
+
   theme: "reco",
   themeConfig: {
-    author: "Jame lin",
+    author: "Kelly ke",
     logo: "/avatar.jpg",
     authorAvatar: "/avatar.jpg",
     type: "blog",
 
+    logo: '/assets/img/logo.png',
+
+    navbar: true, //所有页面的导航栏是否显示
     nav: [
-      { text: "首页", link: "/" },
+      { text: "首页", icon: 'reco-home',link: "/" },
       {
-        text: "Jame lin 的站点",
+        text: "Kelly ke 的站点",
+        icon: 'reco-menu',
         items: [
-          { text: "网易云音乐", link: "https://music.163.com/#/user/home?id=494856858" },
+          {
+            text: "网易云音乐",
+            link: "https://music.163.com/#/user/home?id=494856858",
+          },
           { text: "Github", link: "https://github.com/kelin96" },
         ],
       },
@@ -79,37 +91,47 @@ module.exports = {
       "@vuepress-reco/vuepress-plugin-bgm-player",
       {
         audios: [
+          // 找音乐来这里，https://www.hifini.com/thread-49.htm
           {
-            name: "山鬼(coverwinky诗)",
-            artist: "黄钰棕",
-            url: "https://www.ytmp3.cn/down/43598.mp3",
-            cover: "https://assets.smallsunnyfox.com/music/3.jpg",
-          },
-          {
-            name: "告白の夜 (Live)_Ayasa绚沙",
-            artist: "Ayasa绚沙",
-            url: "https://www.ytmp3.cn/down/78128.mp3",
+            name: "Stay With Me",
+            artist: "朴灿烈/Punch",
+            url: "https://ws.stream.qqmusic.qq.com/C400004VmT3t1ERZn2.m4a?guid=3240394427&vkey=97A72384ACD52EA632E7B0C722ACBF1D8E598DF2536AC239579DE23BFD901B11EEDD4D4D815DBE64242C6B8113B5F212D00FA9B5BF99C120&uin=626567678&fromtag=103032&src=C400002PBIgA0gKjnA.m4a",
             cover:
-              "https://p1.music.126.net/qTSIZ27qiFvRoKj-P30BiA==/109951165895951287.jpg?param=200y200",
+              "https://y.gtimg.cn/music/photo_new/T002R300x300M0000046l5AB1E0FwV.jpg",
           },
           {
-            name: "강남역 4번 출구",
-            artist: "Plastic / Fallin` Dild",
-            url: "https://assets.smallsunnyfox.com/music/2.mp3",
-            cover: "https://assets.smallsunnyfox.com/music/3.jpg",
-          },
-          {
-            name: "팔베개",
-            artist: "최낙타",
-            url: "https://assets.smallsunnyfox.com/music/3.mp3",
+            name: "Round and round",
+            artist: "Heize/韩秀智",
+            url: "https://ws.stream.qqmusic.qq.com/C400003teIQ322USnW.m4a?guid=5769733811&vkey=DBB7041A6A07A98E8CDEF977F2F5A6FC70B9CFA977EF945FE9240B5167C64FD6603E08A3C93C8499327ED5BE2796A2DB675EC0ECB3D7FCC3&uin=626567678&fromtag=103032",
             cover:
-              "https://p1.music.126.net/qTSIZ27qiFvRoKj-P30BiA==/109951165895951287.jpg?param=200y200",
+              "https://y.gtimg.cn/music/photo_new/T002R300x300M0000046l5AB1E0FwV.jpg",
+          },
+          {
+            name: "Everytime",
+            artist: "CHEN",
+            url: "https://ws.stream.qqmusic.qq.com/C400004OPkaF4aiQSJ.m4a?guid=771313563&vkey=FB114C10D42232BDA5EE413E5FA5E9385F72C6085286B7DF4272DA0F74EFEF0ABD1FFE96F51C2411BA139EE94D63D2C5A3D227D3D18212DF&uin=626567678&fromtag=103032",
+            cover:
+              "https://y.gtimg.cn/music/photo_new/T002R300x300M0000001iCUt0DzsWg.jpg",
+          },
+          {
+            name: "童话镇",
+            artist: "陈一发儿",
+            url: "https://m.hifini.com/music/demo.%E7%AB%A5%E8%AF%9D%E9%95%87.m4a",
+            cover:
+              "https://p3.music.126.net/MMGPtLfk9aDv-UHgEO3J9A==/109951163623079780.jpg?param=133y133",
+          },
+          {
+            name: "青城山下白素贞",
+            artist: "鞠婧祎",
+            url: "https://ws.stream.qqmusic.qq.com/C400002awsrV0qQqJF.m4a?guid=7079733468&vkey=49B61E13A136BDA11631EC70C76DBF5E50DD6D55192E104BC5D8076B7154A1FBF4CB77B9F320569F861D443A074C25679EA08EF60E3DE3C2&uin=&fromtag=103032",
+            cover:
+              "https://y.gtimg.cn/music/photo_new/T002R300x300M000000dVMFl132vbz.jpg",
           },
         ],
         // 播放器位置
         position: {
-          right: "10px",
-          bottom: "220px",
+          left: "10px",
+          bottom: "20px",
           "z-index": "999999",
         },
         // 是否默认缩小
@@ -117,9 +139,9 @@ module.exports = {
         // 缩小时缩为哪种模式
         shrinkMode: "float",
         // 浮窗模式浮动在右侧
-        floatPosition: "right",
+        floatPosition: "left",
         // 悬浮窗样式
-        floatStyle: { bottom: "240px", "z-index": "999999" },
+        floatStyle: { bottom: "20px", "z-index": "999999" },
       },
     ],
     /**看板娘插件 */
@@ -127,13 +149,13 @@ module.exports = {
       "@vuepress-reco/vuepress-plugin-kan-ban-niang",
       {
         theme: [
+          "koharu",
+          "haruto",
           "z16",
           "blackCat",
           "whiteCat",
           "haru1",
           "haru2",
-          "haruto",
-          "koharu",
           "izumi",
           "shizuku",
           "wanko",
@@ -141,7 +163,7 @@ module.exports = {
         ],
         clean: true, //隐藏所有按钮
         messages: {
-          welcome: "欢迎来到 " + "Jame lin的博客",
+          welcome: "欢迎来到Kelly ke的博客",
           home: "心里的花，我想要带你回家。",
           theme: "好吧，希望你能喜欢我的其他小伙伴。",
           close: "你知道我喜欢吃什么吗？痴痴地望着你。",
@@ -153,6 +175,21 @@ module.exports = {
         },
       },
     ],
+    /**动态标题 */
+    [
+      "dynamic-title",
+      {
+        showIcon: "/favicon.png",
+        showText: "(/≧▽≦/)咦！又好了！",
+        hideIcon: "/failure.png",
+        hideText: "(●—●)喔哟，崩溃啦！",
+        recoverTime: 2000,
+      },
+    ],
+    // 默认主题自带插件
+    ['@vuepress/search', {
+      searchMaxSuggestions: 10
+    }]
   ],
 
   locales: {

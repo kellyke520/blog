@@ -95,35 +95,35 @@ module.exports = {
           {
             name: "Stay With Me",
             artist: "朴灿烈/Punch",
-            url: "https://ws.stream.qqmusic.qq.com/C400004VmT3t1ERZn2.m4a?guid=3240394427&vkey=97A72384ACD52EA632E7B0C722ACBF1D8E598DF2536AC239579DE23BFD901B11EEDD4D4D815DBE64242C6B8113B5F212D00FA9B5BF99C120&uin=626567678&fromtag=103032&src=C400002PBIgA0gKjnA.m4a",
+            url: "/blog/assets/audio/stay-with-me.m4a",
             cover:
               "https://y.gtimg.cn/music/photo_new/T002R300x300M0000046l5AB1E0FwV.jpg",
           },
           {
             name: "Round and round",
             artist: "Heize/韩秀智",
-            url: "https://ws.stream.qqmusic.qq.com/C400003teIQ322USnW.m4a?guid=5769733811&vkey=DBB7041A6A07A98E8CDEF977F2F5A6FC70B9CFA977EF945FE9240B5167C64FD6603E08A3C93C8499327ED5BE2796A2DB675EC0ECB3D7FCC3&uin=626567678&fromtag=103032",
+            url: "/blog/assets/audio/round-and-round.m4a",
             cover:
               "https://y.gtimg.cn/music/photo_new/T002R300x300M0000046l5AB1E0FwV.jpg",
           },
           {
             name: "Everytime",
             artist: "CHEN",
-            url: "https://ws.stream.qqmusic.qq.com/C400004OPkaF4aiQSJ.m4a?guid=771313563&vkey=FB114C10D42232BDA5EE413E5FA5E9385F72C6085286B7DF4272DA0F74EFEF0ABD1FFE96F51C2411BA139EE94D63D2C5A3D227D3D18212DF&uin=626567678&fromtag=103032",
+            url: "/blog/assets/audio/Everytime.m4a",
             cover:
               "https://y.gtimg.cn/music/photo_new/T002R300x300M0000001iCUt0DzsWg.jpg",
           },
           {
             name: "童话镇",
             artist: "陈一发儿",
-            url: "https://m.hifini.com/music/demo.%E7%AB%A5%E8%AF%9D%E9%95%87.m4a",
+            url: "https://m.hifini.com/music/demo.%E7%AB%A5%E8%AF%9D%E9%95%87.m4a",//在线音乐
             cover:
               "https://p3.music.126.net/MMGPtLfk9aDv-UHgEO3J9A==/109951163623079780.jpg?param=133y133",
           },
           {
             name: "青城山下白素贞",
             artist: "鞠婧祎",
-            url: "https://ws.stream.qqmusic.qq.com/C400002awsrV0qQqJF.m4a?guid=7079733468&vkey=49B61E13A136BDA11631EC70C76DBF5E50DD6D55192E104BC5D8076B7154A1FBF4CB77B9F320569F861D443A074C25679EA08EF60E3DE3C2&uin=&fromtag=103032",
+            url: "/blog/assets/audio/青城山下白素贞.m4a",
             cover:
               "https://y.gtimg.cn/music/photo_new/T002R300x300M000000dVMFl132vbz.jpg",
           },

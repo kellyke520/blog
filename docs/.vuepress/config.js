@@ -6,17 +6,16 @@ module.exports = {
   description: "A bold attempt is half success",
 
   head: [
-    ['link', { rel: 'icon', href: '/avatar.png' }],
+    ['link', { rel: 'shortcut icon', href: base +'/favicon.png' }],
   ],
 
   theme: "reco",
   themeConfig: {
     author: "Kelly ke",
-    logo: "/avatar.jpg",
+    logo: '/assets/img/logo.png',
     authorAvatar: "/avatar.jpg",
     type: "blog",
 
-    logo: '/assets/img/logo.png',
 
     navbar: true, //所有页面的导航栏是否显示
     nav: [
@@ -27,9 +26,10 @@ module.exports = {
         items: [
           {
             text: "网易云音乐",
-            link: "https://music.163.com/#/user/home?id=494856858",
+            link: "https://music.163.com/#/playlist?id=742688356",
           },
-          { text: "Github", link: "https://github.com/kelin96" },
+          { text: "Github", icon: 'reco-github',link: "https://github.com/kellyke520/blog" },
+          { text: "微博", icon: 'reco-weibo',link: "https://weibo.com/u/5663305642" },
         ],
       },
     ],

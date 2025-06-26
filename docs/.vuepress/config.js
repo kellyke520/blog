@@ -6,7 +6,7 @@ module.exports = {
   description: "A bold attempt is half success",
 
   head: [
-    ['link', { rel: 'shortcut icon', href: base +'/favicon.png' }],
+    ['link', { rel: 'shortcut icon', href: '/blog/' +'/favicon.png' }], // 这里前缀路径和变量 base 一致
   ],
 
   theme: "reco",
